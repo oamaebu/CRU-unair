@@ -1,43 +1,54 @@
-# Use the official PHP image with Apache
-FROM php:8.0-apache
+# Use an official PHP runtime as a parent image
+FROM php:7.4-apache
 
 # Set the working directory in the container
 WORKDIR /var/www/html
 
 # Install system dependencies
-RUN apt-get update \
-    && apt-get install -y \
-        libzip-dev \
-        unzip \
+RUN apt-get update && \
+    apt-get install -y \
         git \
-    && docker-php-ext-install zip
+        zip \
+        unzip \
+        libpng-dev \
+        libonig-dev \
+        libxml2-dev
+
+# Clear cache
+RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Install PHP extensions
-RUN docker-php-ext-install pdo_mysql bcmath
+RUN docker-php-ext-install pdo pdo_mysql mbstring exif pcntl bcmath gd
 
-# Install Composer globally
+# Install Composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
-# Copy the composer files and install dependencies
-COPY composer.json composer.json
-COPY composer.lock composer.lock
+# Copy composer.json and composer.lock to the working directory
+COPY composer.json composer.lock ./
 
-# Copy the rest of the application code
+# Install project dependencies
+RUN composer install --no-scripts --no-autoloader
+
+# Copy the application code into the container
 COPY . .
 
-# Generate the Laravel application key
-RUN php artisan key:generate
-RUN php artisan migrate
-RUN php artisan migrate:refresh --seed
-
-# Run Composer with autoloader optimization
+# Generate the optimized autoload files
 RUN composer dump-autoload --optimize
 
-# Set the correct permissions
+# Set permissions
 RUN chown -R www-data:www-data storage bootstrap/cache
 
-# Expose port 80
-EXPOSE 80
+# Generate the application key
+RUN php artisan key:generate
 
-# Start Apache
+# Install Sanctum and publish configuration
+RUN composer require laravel/sanctum
+RUN php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
+
+# Run migrations and seed the database
+RUN php artisan migrate
+RUN php artisan migrate --seed
+
+# Expose port 80 and start Apache
+EXPOSE 80
 CMD ["apache2-foreground"]
