@@ -51,7 +51,19 @@
         
     </div>
 </section>
-@include('component.navbar')
+
+<header id="header" class="d-flex align-items-center">
+  <div class="container d-flex align-items-center justify-content-between">
+      
+      <a href="index.html" class="logo">
+          <img src="image/logo2.png" alt="University Logo" style="size: 20vh; margin: 5vh;">
+      </a>
+
+      @include('component.navbar')
+
+  </div>
+  
+</header><!-- End Header -->
   <main id="main">
     <!-- ======= About Section ======= -->
     <section id="about" class="about section-bg" style="background: white">

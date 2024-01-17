@@ -46,19 +46,7 @@
             <img src="image/logo2.png" alt="University Logo" style="size: 20vh; margin: 5vh;">
         </a>
 
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link " href="{{ route("landing") }}">Home</a></li>
-          <li><a class="nav-link " href="{{ route("about") }}">About</a></li>
-          <li><a class="nav-link" href="#services">Services & Resources</a></li>
-          <li><a class="nav-link" href="#portfolio">Funding</a></li>
-          <li><a class="nav-link active" href="{{ route("education") }}">Education & Training</a></li>
-          <li><a class="nav-link" href="">Community Engagement</a></li>
-          <li><a class="nav-link" href="#contact">Contact</a></li>
-          <li><a class="nav-link" href="">Login</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+        @include('component.navbar')
 
     </div>
   </header><!-- End Header -->
@@ -79,48 +67,58 @@
   <main id="main">
 
     <!-- ======= Featured Services Section ======= -->
-    <section id="featured-services" class="featured-services" >
-        <div class="container" data-aos="fade-up">
-              <!-- Larger and Centered Icon Box -->
-                <div class="icon-box" data-aos="fade-up" data-aos-delay="100" style="text-align: center; margin: 2%" >
-                    <h1 class="title">
-                        <a href="" style="font-size: 200%;">
-                            Continuing Research <span style="color: blue;">Education</span>
-                        </a>
-                    </h1>                    
-                    <h2 class="description" style="font-size: 120%; font-style: italic ">web-based learning management platform specifically designed to assist healthcare organizations in effectively creating, organizing, programs for their valuable healthcare workforce. Our platform empowers educators with the capability to seamlessly create engaging and informative lessons.
-                    </h2>
-                </div>
+    <!-- ======= Featured Services Section ======= -->
+<section id="featured-services" class="featured-services" >
+    <div class="container" data-aos="fade-up" style="margin-bottom: -12%">
 
-                <div class="row justify-content-center" style="margin-bottom: 10%">
-                    <!-- Icon Box 1 -->
-                    <a href="{{ route('user.login') }}">
-                        <div class="col-3 mb-5" style="position: relative;">
-                            <div class="icon-box" data-aos="fade-up" data-aos-delay="200" style="height: 400%; background-image: url('image/staff.JPG'); background-size: cover; filter: brightness(90%); position: relative;">
-                                <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(73, 73, 73, 0.5);"></div>
-                                <h4 class="title" style="color: black; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); ;"><a href="#" style="color: rgb(255, 255, 255)">STAFF</a></h4>
-                            </div>
-                        </div>
-                    </a>
-
-                    <!-- Icon Box 2 -->
-                    <div class="col-3 mb-5" style="position: relative;">
-                        <div class="icon-box" data-aos="fade-up" data-aos-delay="200" style="height: 400%; background-image: url('image/student.jpeg'); background-size: cover; filter: brightness(90%); position: relative;">
-                            <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(73, 73, 73, 0.5);"></div>
-                            <h4 class="title" style="color: black; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); ;"><a href="#" style="color: rgb(255, 255, 255)">STUDENTS</a></h4>
-                        </div>
-                    </div>
-                    
-                    <!-- Icon Box 3 -->
-                    <div class="col-3 mb-5" style="position: relative;">
-                        <div class="icon-box" data-aos="fade-up" data-aos-delay="200" style="height: 400%; background-image: url('image/trainee.jpg'); background-size: cover; filter: brightness(90%); ;">
-                            <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(73, 73, 73, 0.5);"></div>
-                            <h4 class="title" style="color: black; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); ;"><a href="#" style="color: rgb(255, 255, 255)">TRAINEE</a></h4>
-                        </div>
-                    </div>  
+        <!-- Larger and Centered Icon Box -->
+        <div class="icon-box" data-aos="fade-up" style="text-align: center; margin: 2%">
+            <h1 class="title">
+                <a href="" style="font-size: 200%;">
+                    Continuing Research <span style="color: blue;">Education</span>
+                </a>
+            </h1>
+            <h2 class="description" style="font-size: 120%; font-style: italic ">
+                Web-based learning management platform specifically designed to assist healthcare organizations in effectively creating, organizing, programs for their valuable healthcare workforce. Our platform empowers educators with the capability to seamlessly create engaging and informative lessons.
+            </h2>
         </div>
-    </section>
-    
+
+        <div class="row justify-content-center" style="margin-bottom: 10%">
+
+            <!-- Icon Box 1 -->
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" style="height: 41vh; margin">
+                <a href="{{ route('user.login') }}">
+                    <div class="icon-box" data-aos="fade-up" style="height: 100%; background-image: url('image/staff.JPG'); background-size: cover; position: relative; overflow: hidden; display: flex; flex-direction: column; justify-content: center;">
+                        <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(73, 73, 73, 0.5);"></div>
+                        <h4 class="title" style="color: black; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); ;"><a href="#" style="color: rgb(255, 255, 255)">STAFF</a></h4>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Icon Box 2 -->
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" style="height: 41vh;">
+                <a href="{{ route('user.login') }}">
+                    <div class="icon-box" data-aos="fade-up" style="height: 100%; background-image: url('image/student.jpeg'); background-size: cover; position: relative; overflow: hidden; display: flex; flex-direction: column; justify-content: center;">
+                        <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(73, 73, 73, 0.5);"></div>
+                        <h4 class="title" style="color: black; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); ;"><a href="#" style="color: rgb(255, 255, 255)">STUDENTS</a></h4>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Icon Box 3 -->
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" style="height: 41vh;">
+                <a href="{{ route('user.login') }}">
+                    <div class="icon-box" data-aos="fade-up" style="height: 100%; background-image: url('image/trainee.jpg'); background-size: cover; position: relative; overflow: hidden; display: flex; flex-direction: column; justify-content: center;">
+                        <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(73, 73, 73, 0.5);"></div>
+                        <h4 class="title" style="color: black; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); ;"><a href="#" style="color: rgb(255, 255, 255)">TRAINEE</a></h4>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
 
 
   </main><!-- End #main -->

@@ -38,30 +38,17 @@
 <style>.custom-img-size {
   height: 100px; /* Set your desired height here */
 }</style>
+
 <body>
+
   <!-- ======= Header ======= -->
-  <header id="header" class="d-flex align-items-center">
+<header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
-        <a href="index.html" class="logo">
-            <img src="image/logo2.png" alt="University Logo" style="size: 20vh; margin: 5vh;">
-        </a>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>-->
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link" href="{{ route("landing") }}">Home</a></li>
-          <li><a class="nav-link active" href="{{ route("about") }}">About</a></li>
-          <li><a class="nav-link" href="#services">Services & Resources</a></li>
-          <li><a class="nav-link" href="#portfolio">Funding</a></li>
-          <li><a class="nav-link" href="{{ route("education") }}">Education & Training</a></li>
-          <li><a class="nav-link" href="">Community Engagement</a></li>
-          <li><a class="nav-link" href="#contact">Contact</a></li>
-          <li><a class="nav-link" href="">Login</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+      <a href="index.html" class="logo">
+        <img src="image/logo2.png" alt="University Logo" style="size: 2000px; margin: 5vh;">
+    </a>
+      @include('component.navbar')
 
     </div>
   </header><!-- End Header -->
