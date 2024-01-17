@@ -38,9 +38,6 @@ RUN composer dump-autoload --optimize
 # Set permissions
 RUN chown -R www-data:www-data storage bootstrap/cache
 
-# Generate the application key
-RUN php artisan key:generate
-
 # Install Sanctum and publish configuration
 RUN composer require laravel/sanctum
 RUN php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
