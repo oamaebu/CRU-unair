@@ -21,13 +21,15 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 # Copy the composer files and install dependencies
 COPY composer.json composer.json
 COPY composer.lock composer.lock
-RUN composer install --no-scripts --no-autoloader
+RUN composer install 
 
 # Copy the rest of the application code
 COPY . .
 
 # Generate the Laravel application key
 RUN php artisan key:generate
+RUN php artisan migrate
+RUN php artisan migrate:refresh --seed
 
 # Run Composer with autoloader optimization
 RUN composer dump-autoload --optimize
