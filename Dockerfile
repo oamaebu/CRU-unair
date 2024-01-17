@@ -43,8 +43,8 @@ RUN composer require laravel/sanctum
 RUN php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
 
 # Run migrations and seed the database
-RUN php artisan migrate
-RUN php artisan migrate --seed
+RUN php artisan migrate --force
+RUN php artisan migrate --seed --force
 
 # Expose port 80 and start Apache
 EXPOSE 80
