@@ -293,48 +293,6 @@
         </a>
       </li><!-- End Profile Page Nav -->
 
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="pages-faq.html">
-          <i class="bi bi-question-circle"></i>
-          <span>F.A.Q</span>
-        </a>
-      </li><!-- End F.A.Q Page Nav -->
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="pages-contact.html">
-          <i class="bi bi-envelope"></i>
-          <span>Contact</span>
-        </a>
-      </li><!-- End Contact Page Nav -->
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="pages-register.html">
-          <i class="bi bi-card-list"></i>
-          <span>Register</span>
-        </a>
-      </li><!-- End Register Page Nav -->
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="pages-login.html">
-          <i class="bi bi-box-arrow-in-right"></i>
-          <span>Login</span>
-        </a>
-      </li><!-- End Login Page Nav -->
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="pages-error-404.html">
-          <i class="bi bi-dash-circle"></i>
-          <span>Error 404</span>
-        </a>
-      </li><!-- End Error 404 Page Nav -->
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="pages-blank.html">
-          <i class="bi bi-file-earmark"></i>
-          <span>Blank</span>
-        </a>
-      </li><!-- End Blank Page Nav -->
-
     </ul>
 
   </aside><!-- End Sidebar-->
@@ -377,15 +335,15 @@
                 <h5 class="card-title">Progress Modul Pembelajaran</h5>
 
                 <!-- Progress Bars with Backgrounds-->
-                <h4>Biologi</h4>
+                <h4>Introduction To BPJS</h4>
                 <div class="progress mb-2" style=" ">
                     <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-                <h4>Biologi</h4>
+                <h4>Good Clinical Practice</h4>
                 <div class="progress mb-2">
                     <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-                <h4>Biologi</h4>
+                <h4>-</h4>
                 <div class="progress mb-2">
                     <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
@@ -396,18 +354,7 @@
         <div class="row">
             <div class="col-xl-4">
                     <div class="card">
-                        <div class="filter">
-                        <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
-                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                            <li class="dropdown-header text-start">
-                            <h6>Filter</h6>
-                            </li>
-
-                            <li><a class="dropdown-item" href="#">Today</a></li>
-                            <li><a class="dropdown-item" href="#">This Month</a></li>
-                            <li><a class="dropdown-item" href="#">This Year</a></li>
-                        </ul>
-                        </div>
+                      
 
                         <!-- End sidebar recent posts-->
                         <div class="card-body pb-0">
@@ -457,20 +404,6 @@
                             <!-- Recent Sales -->
                             <div class="col-12">
                                 <div class="card recent-sales overflow-auto">
-                
-                                <div class="filter">
-                                    <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
-                                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                                    <li class="dropdown-header text-start">
-                                        <h6>Filter</h6>
-                                    </li>
-                
-                                    <li><a class="dropdown-item" href="#">Today</a></li>
-                                    <li><a class="dropdown-item" href="#">This Month</a></li>
-                                    <li><a class="dropdown-item" href="#">This Year</a></li>
-                                    </ul>
-                                </div>
-                
                                 <div class="card-body">
                                     <h5 class="card-title">Module List <span>| Today</span></h5>
                 
@@ -488,21 +421,11 @@
                                         </tr>
                                         <tr>
                                         <tr>
-                                        <th scope="row"><a href="#">STUDY TEAM TOOLS & RESOURCES</a></th>
+                                        <th scope="row"><a href="#">Good Clincal Practice</a></th>
                                         <td><span class="badge bg-warning" style="padding:3% 5%">On Progress</span></td>
                                         </tr>
                                         <tr>
-                                        <tr>
-                                        <th scope="row"><a href="#">STUDY TEAM TOOLS & RESOURCES</a></th>
-                                        <td><span class="badge bg-warning" style="padding:3% 5%">On Progress</span></td>
-                                        </tr>
-                                        <tr>
-                                        </tr>
-                                        <tr>
-                                        <tr>
-                                        <th scope="row"><a href="#">STUDY TEAM TOOLS & RESOURCES</a></th>
-                                        <td><span class="badge bg-danger" style="padding:3% 5%">Late</span></td>
-                                        </tr>
+                                       
                                     </tbody>
                                     </table>
                 

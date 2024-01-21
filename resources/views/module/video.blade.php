@@ -313,76 +313,18 @@
 
   <main id="main" class="main">
 
-    <section class="section">
-        <div class="row">
-          <div class="col-lg-12">
+    <section class="section" style="height:3000em">
   
-            <div class="card">
-              <div class="card-body">
-                <h1 class="card-title" style="margin-left:1%; font-size: 200% ">Introduction To BPJS</h1>
-                <h6 style="margin-bottom:2%;margin-left:1%; ">BPJS stands for Badan Penyelenggara Jaminan Sosial (Social Security Administrative Body) in Indonesia. It is a government agency responsible for managing and implementing social security programs in the country. The establishment of BPJS is part of Indonesia's efforts to provide comprehensive social protection to its citizens.</h6>
-  
-                <!-- Default Accordion -->
-                <div class="accordion" id="accordionExample">
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingOne">
-                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Module 1
-                      </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="list-group" style="border-radius: 0;">
-                            <button type="button" class="list-group-item list-group-item-action">
-                                <i class="bx bxs-file-blank" style="margin-right:1% "></i>
-                                Indonesia Insurance BPJS in Hospital setting
-                            </button>
-                            <button type="button" class="list-group-item list-group-item-action">
-                                <i class="bx bxs-videos" style="margin-right:1% "></i>
-                                video introduction BPJS</button>
-                            <button type="button" class="list-group-item list-group-item-action">
-                                <i class="bx bx-detail" style="margin-right:1% "></i>
-                                Evaluation 1</button>
-                            <button type="button" class="list-group-item list-group-item-action" disabled>A disabled button item</button>
-                          </div><!-- End List group with Links and buttons -->
-                    </div>
-                  </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingTwo">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Module 2
-                      </button>
-                      <iframe src="https://www.youtube.com/embed/UPNkOwabRDY" width="560" height="315" title="A YouTube video" frameborder="0" allowfullscreen></iframe>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
-                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingThree">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Module 3
-                      </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
-                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                      </div>
-                    </div>
-                  </div>
-                </div><!-- End Default Accordion Example -->
-  
-              </div>
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title" style="margin-left: 1%; font-size: 200%">Introduction To BPJS</h1> 
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UPNkOwabRDY"  width="100%" height="200%"  title="A YouTube video" frameborder="0" allowfullscreen></iframe>
             </div>
-  
-          </div>
         </div>
-      </section>
+  
+    </section>
+</main><!-- End #main -->
 
-   
-
-  </main><!-- End #main -->
   
 
 

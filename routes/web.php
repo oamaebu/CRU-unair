@@ -35,6 +35,14 @@ Route::get('/modul', function () {
     return view('module.modul');
 })->name('modul');
 
+Route::get('/quiz', function () {
+    return view('module.quiz');
+})->name('quiz');
+
+Route::get('/video', function () {
+    return view('module.video');
+})->name('video');
+
 
 
 Route::group(['prefix' => 'user'], function() {

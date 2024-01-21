@@ -37,7 +37,41 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 </head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
 
+    #container {
+        width: 60%;
+        margin: auto;
+    }
+
+    .question {
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+
+    .options {
+        margin-left: 20px;
+    }
+
+    #submitBtn {
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #score {
+        margin-top: 20px;
+        font-weight: bold;
+    }
+</style>
 
 <body>
 
@@ -270,119 +304,38 @@
   </header><!-- End Header -->
 
   <!-- ======= Sidebar ======= -->
-  <aside id="sidebar" class="sidebar">
-    <ul class="sidebar-nav" id="sidebar-nav">
-        <img src="../image/logo.png" alt="" style="width: 50%; margin-left:25%; margin-bottom: 10% ">
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="index.html">
-          <i class="bi bi-grid"></i>
-          <span>Dashboard</span>
-        </a>
-      </li><!-- End Dashboard Nav -->
 
 
+  <main id="" class="" style=" background-color: white;" >
 
-      <li class="nav-item">
-        <a class="nav-link " data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-menu-button-wide"></i><span>Modul</span><i class="bi bi-chevron-down ms-auto"></i>
-        </a>
-        <ul id="components-nav" class="nav-content collapse show" data-bs-parent="#sidebar-nav">
-          <li>
-            <a href="components-alerts.html">
-              <i class="bi bi-circle"></i><span>Modul 1</span>
-            </a>
-          </li>
-          <li>
-            <a href="components-accordion.html" >
-              <i class="bi bi-circle"></i><span>Modul 2</span>
-            </a>
-          </li>
-          <li>
-            <a href="components-accordion.html" >
-              <i class="bi bi-circle"></i><span>Modul 3</span>
-            </a>
-          </li>
-        </ul>
-      </li><!-- End Components Nav -->
+    <div id="container" style="background-color: white; margin-top:5em; align-content: center">
+        <div>
+            <h2>Exam</h2>
 
-
-
-    </ul>
-
-  </aside><!-- End Sidebar-->
-
-  <main id="main" class="main">
-
-    <section class="section">
-        <div class="row">
-          <div class="col-lg-12">
-  
-            <div class="card">
-              <div class="card-body">
-                <h1 class="card-title" style="margin-left:1%; font-size: 200% ">Introduction To BPJS</h1>
-                <h6 style="margin-bottom:2%;margin-left:1%; ">BPJS stands for Badan Penyelenggara Jaminan Sosial (Social Security Administrative Body) in Indonesia. It is a government agency responsible for managing and implementing social security programs in the country. The establishment of BPJS is part of Indonesia's efforts to provide comprehensive social protection to its citizens.</h6>
-  
-                <!-- Default Accordion -->
-                <div class="accordion" id="accordionExample">
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingOne">
-                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Module 1
-                      </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="list-group" style="border-radius: 0;">
-                            <button type="button" class="list-group-item list-group-item-action">
-                                <i class="bx bxs-file-blank" style="margin-right:1% "></i>
-                                Indonesia Insurance BPJS in Hospital setting
-                            </button>
-                            <button type="button" class="list-group-item list-group-item-action">
-                                <i class="bx bxs-videos" style="margin-right:1% "></i>
-                                video introduction BPJS</button>
-                            <button type="button" class="list-group-item list-group-item-action">
-                                <i class="bx bx-detail" style="margin-right:1% "></i>
-                                Evaluation 1</button>
-                            <button type="button" class="list-group-item list-group-item-action" disabled>A disabled button item</button>
-                          </div><!-- End List group with Links and buttons -->
-                    </div>
-                  </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingTwo">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Module 2
-                      </button>
-                      <iframe src="https://www.youtube.com/embed/UPNkOwabRDY" width="560" height="315" title="A YouTube video" frameborder="0" allowfullscreen></iframe>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
-                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingThree">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Module 3
-                      </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
-                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                      </div>
-                    </div>
-                  </div>
-                </div><!-- End Default Accordion Example -->
-  
-              </div>
+            <div class="question">
+                <p>1. What is the capital of France? What is the largest planet in our solar system? What is the largest planet in our solar system? What is the largest planet in our solar system? What is the largest planet in our solar system?</p>
+                <div class="options">
+                    <label><input type="radio" name="q1" value="paris"> Paris</label>
+                    <label><input type="radio" name="q1" value="london"> London</label>
+                    <label><input type="radio" name="q1" value="berlin"> Berlin</label>
+                </div>
             </div>
-  
-          </div>
+
+            <div class="question">
+                <p>2. What is the largest planet in our solar system?</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="earth"> Earth</label>
+                    <label><input type="radio" name="q2" value="jupiter"> Jupiter</label>
+                    <label><input type="radio" name="q2" value="mars"> Mars</label>
+                </div>
+            </div>
+
+            <button id="submitBtn" onclick="calculateScore()">Submit</button>
+
+            <div id="score"></div>
         </div>
-      </section>
 
-   
-
-  </main><!-- End #main -->
+    </div>
   
 
 
