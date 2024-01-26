@@ -10,24 +10,24 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="../assetsDashboard/img/favicon.png" rel="icon">
-  <link href="../assetsDashboard/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="/../assetsDashboard/img/favicon.png" rel="icon">
+  <link href="/../assetsDashboard/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.gstatic.com" rel="preconnect">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="../assetsDashboard/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="../assetsDashboard/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="../assetsDashboard/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="../assetsDashboard/vendor/quill/quill.snow.css" rel="stylesheet">
-  <link href="../assetsDashboard/vendor/quill/quill.bubble.css" rel="stylesheet">
-  <link href="../assetsDashboard/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="../assetsDashboard/vendor/simple-datatables/style.css" rel="stylesheet">
+  <link href="/../assetsDashboard/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/../assetsDashboard/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/../assetsDashboard/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="/../assetsDashboard/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="/../assetsDashboard/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="/../assetsDashboard/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="/../assetsDashboard/vendor/simple-datatables/style.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="../assetsDashboard/css/style.css" rel="stylesheet">
+  <link href="/../assetsDashboard/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: NiceAdmin
@@ -194,10 +194,10 @@
 
             <li class="message-item">
               <a href="#">
-                <img src="../assetsDashboard/img/messages-1.jpg" alt="" class="rounded-circle">
+                <img src="/../assetsDashboard/img/messages-1.jpg" alt="" class="rounded-circle">
                 <div>
                   <h4>Maria Hudson</h4>
-                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut/...</p>
                   <p>4 hrs. ago</p>
                 </div>
               </a>
@@ -208,10 +208,10 @@
 
             <li class="message-item">
               <a href="#">
-                <img src="../assetsDashboard/img/messages-2.jpg" alt="" class="rounded-circle">
+                <img src="/../assetsDashboard/img/messages-2.jpg" alt="" class="rounded-circle">
                 <div>
                   <h4>Anna Nelson</h4>
-                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut/...</p>
                   <p>6 hrs. ago</p>
                 </div>
               </a>
@@ -222,10 +222,10 @@
 
             <li class="message-item">
               <a href="#">
-                <img src="../assetsDashboard/img/messages-3.jpg" alt="" class="rounded-circle">
+                <img src="/../assetsDashboard/img/messages-3.jpg" alt="" class="rounded-circle">
                 <div>
                   <h4>David Muldon</h4>
-                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut/...</p>
                   <p>8 hrs. ago</p>
                 </div>
               </a>
@@ -245,7 +245,7 @@
         <li class="nav-item dropdown pe-3">
 
           <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-            <img src="../assetsDashboard/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+            <img src="/../assetsDashboard/img/profile-img.jpg" alt="Profile" class="rounded-circle">
             <span class="d-none d-md-block dropdown-toggle ps-2">K. Anderson</span>
           </a><!-- End Profile Iamge Icon -->
 
@@ -308,27 +308,46 @@
 
   <main id="" class="" style=" background-color: white;" >
 
-    <div id="container" style="background-color: white; margin-top:5em; align-content: center">
+    <div id="container" style="background-color: white; margin-top:5em; padding-top:3%; padding-bottom:3% ;align-content: center">
         <div>
-            <h2>Exam</h2>
+            <h2>Evaluation 1</h2>
+            <br>
+            <h5>Case 1: A patient arrives at a hospital emergency department seeking immediate medical attention. The patient holds a BPJS card and 
+              states that they were referred by a primary care clinic. The hospital staff assesses the patient and determines that immediate treatment is necessary. </h5>
 
             <div class="question">
-                <p>1. What is the capital of France? What is the largest planet in our solar system? What is the largest planet in our solar system? What is the largest planet in our solar system? What is the largest planet in our solar system?</p>
+                <p>1. What steps should the hospital follow to admit the patient under BPJS?</p>
                 <div class="options">
-                    <label><input type="radio" name="q1" value="paris"> Paris</label>
-                    <label><input type="radio" name="q1" value="london"> London</label>
-                    <label><input type="radio" name="q1" value="berlin"> Berlin</label>
+                    <label><input type="radio" name="q1" value="correct"> Verify the referral from the primary care clinic and admit the patient.</label>
+                    <label><input type="radio" name="q1" value="wrong"> Contact BPJS for approval before admitting the patient.</label>
+                    <label><input type="radio" name="q1" value="wrong"> Inform the patient that emergency cases are not covered by BPJS.</label>
+                    <label><input type="radio" name="q1" value="wrong"> Request the patient to provide additional documentation before admitting them.</label>
                 </div>
             </div>
 
             <div class="question">
-                <p>2. What is the largest planet in our solar system?</p>
+                <p>2. How should the hospital handle the billing and reimbursement process for this emergency case?</p>
                 <div class="options">
-                    <label><input type="radio" name="q2" value="earth"> Earth</label>
-                    <label><input type="radio" name="q2" value="jupiter"> Jupiter</label>
-                    <label><input type="radio" name="q2" value="mars"> Mars</label>
-                </div>
+                  <label><input type="radio" name="q2" value="wrong">Bill the patient directly for the full amount and provide reimbursement later.</label>
+                  <label><input type="radio" name="q2" value="correct"> Submit the necessary documents to BPJS for reimbursement.</label>
+                  <label><input type="radio" name="q2" value="wrong"> Inform the patient that emergency cases are not eligible for reimbursement..</label>
+                  <label><input type="radio" name="q2" value="wrong"> Delay the billing process until BPJS provides prior authorization.</label>
+              </div>
             </div>
+
+            <div class="question">
+              <p>3. What actions can the hospital take to ensure compliance with BPJS guidelines during the patient's treatment and stay?</p>
+              <div class="options">
+                <label><input type="radio" name="q3" value="wrong">Provide unnecessary medical procedures to maximize reimbursement.</label>
+                <label><input type="radio" name="q3" value="correct"> Ensure accurate and thorough documentation of the patient's treatment.</label>
+                <br>
+                <label><input type="radio" name="q3" value="wrong"> Deny necessary treatments to reduce costs.</label>
+                <br>
+                <label><input type="radio" name="q3" value="wrong"> Discharge the patient before the recommended duration of stay.</label>
+            </div>
+          </div>
+          
+          
 
             <button id="submitBtn" onclick="calculateScore()">Submit</button>
 
@@ -342,17 +361,55 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="../assetsDashboard/vendor/apexcharts/apexcharts.min.js"></script>
-  <script src="../assetsDashboard/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="../assetsDashboard/vendor/chart.js/chart.umd.js"></script>
-  <script src="../assetsDashboard/vendor/echarts/echarts.min.js"></script>
-  <script src="../assetsDashboard/vendor/quill/quill.min.js"></script>
-  <script src="../assetsDashboard/vendor/simple-datatables/simple-datatables.js"></script>
-  <script src="../assetsDashboard/vendor/tinymce/tinymce.min.js"></script>
-  <script src="../assetsDashboard/vendor/php-email-form/validate.js"></script>
+  <script src="/../assetsDashboard/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="/../assetsDashboard/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/../assetsDashboard/vendor/chart.js/chart.umd.js"></script>
+  <script src="/../assetsDashboard/vendor/echarts/echarts.min.js"></script>
+  <script src="/../assetsDashboard/vendor/quill/quill.min.js"></script>
+  <script src="/../assetsDashboard/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="/../assetsDashboard/vendor/tinymce/tinymce.min.js"></script>
+  <script src="/../assetsDashboard/vendor/php-email-form/validate.js"></script>
+
+  <script>
+function calculateScore() {
+    // Dummy scoring logic (replace with your own logic)
+    var score = 0;
+    var answers = {
+        q1: "correct",
+        q2: "correct",
+        q3: "correct"
+    };
+
+    for (var i = 1; i <= 3; i++) {
+        var selectedOption = document.querySelector('input[name="q' + i + '"]:checked');
+        if (selectedOption && selectedOption.value === answers['q' + i]) {
+            score++;
+        }
+    }
+
+    var totalQuestions = Object.keys(answers).length;
+    var percentage = (score / totalQuestions) * 100;
+
+    var resultMessage = 'Your score: ' + score + ' out of ' + totalQuestions + ' (' + percentage.toFixed(2) + '%)';
+
+    if (percentage >= 75) {
+        resultMessage += '<br>Congratulations! You passed.';
+        // Add a "Next" button logic here
+        // Example: document.getElementById('nextButton').style.display = 'block';
+    } else {
+        resultMessage += '<br>Sorry, you did not pass. Please retry.';
+        // Add a "Retry" button logic here
+        // Example: document.getElementById('retryButton').style.display = 'block';
+    }
+
+    document.getElementById('score').innerHTML = resultMessage;
+}
+
+
+</script>
 
   <!-- Template Main JS File -->
-  <script src="../assetsDashboard/js/main.js"></script>
+  <script src="/../assetsDashboard/js/main.js"></script>
 
 </body>
 

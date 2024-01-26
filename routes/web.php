@@ -35,13 +35,13 @@ Route::get('/modul', function () {
     return view('module.modul');
 })->name('modul');
 
-Route::get('/quiz', function () {
-    return view('module.quiz');
-})->name('quiz');
 
-Route::get('/video', function () {
-    return view('module.video');
-})->name('video');
+Route::get('/services', function () {
+    return view('services');
+})->name('services');
+
+
+
 
 
 
@@ -55,9 +55,23 @@ Route::group(['prefix' => 'user'], function() {
             Route::get('/', function () {
                 return view('user.dashboard');
             })->name('user.dashboard');
-            Route::get('/module', function () {
-                return view('module.modul');
-            })->name('user.module');
+            Route::group(['prefix' => 'BPJS'], function() {
+                Route::get('/', function () {
+                    return view('module.modul');
+                })->name('user.module');
+                Route::get('/ppt', function () {
+                    return view('module.ppt');
+                })->name('ppt');
+                Route::get('/video', function () {
+                    return view('module.video');
+                })->name('video');
+                Route::get('/quiz', function () {
+                    return view('module.quiz');
+                })->name('quiz');
+            });
+            
+            
+           
         
      
     });

@@ -10,24 +10,24 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="../assetsDashboard/img/favicon.png" rel="icon">
-  <link href="../assetsDashboard/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="/../assetsDashboard/img/favicon.png" rel="icon">
+  <link href="/../assetsDashboard/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.gstatic.com" rel="preconnect">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="../assetsDashboard/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="../assetsDashboard/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="../assetsDashboard/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="../assetsDashboard/vendor/quill/quill.snow.css" rel="stylesheet">
-  <link href="../assetsDashboard/vendor/quill/quill.bubble.css" rel="stylesheet">
-  <link href="../assetsDashboard/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="../assetsDashboard/vendor/simple-datatables/style.css" rel="stylesheet">
+  <link href="{{ asset('../assetsDashboard/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('../assetsDashboard/vendor/bootstrap-icons/bootstrap-icons.css')}}" rel="stylesheet">
+  <link href="/../assetsDashboard/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="/../assetsDashboard/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="/../assetsDashboard/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="/../assetsDashboard/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="/../assetsDashboard/vendor/simple-datatables/style.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="../assetsDashboard/css/style.css" rel="stylesheet">
+  <link href="/../assetsDashboard/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: NiceAdmin
@@ -160,7 +160,7 @@
 
             <li class="message-item">
               <a href="#">
-                <img src="../assetsDashboard/img/messages-1.jpg" alt="" class="rounded-circle">
+                <img src="/../assetsDashboard/img/messages-1.jpg" alt="" class="rounded-circle">
                 <div>
                   <h4>Maria Hudson</h4>
                   <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
@@ -174,7 +174,7 @@
 
             <li class="message-item">
               <a href="#">
-                <img src="../assetsDashboard/img/messages-2.jpg" alt="" class="rounded-circle">
+                <img src="/../assetsDashboard/img/messages-2.jpg" alt="" class="rounded-circle">
                 <div>
                   <h4>Anna Nelson</h4>
                   <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
@@ -188,7 +188,7 @@
 
             <li class="message-item">
               <a href="#">
-                <img src="../assetsDashboard/img/messages-3.jpg" alt="" class="rounded-circle">
+                <img src="/../assetsDashboard/img/messages-3.jpg" alt="" class="rounded-circle">
                 <div>
                   <h4>David Muldon</h4>
                   <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
@@ -211,7 +211,7 @@
         <li class="nav-item dropdown pe-3">
 
           <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-            <img src="../assetsDashboard/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+            <img src="/../assetsDashboard/img/profile-img.jpg" alt="Profile" class="rounded-circle">
             <span class="d-none d-md-block dropdown-toggle ps-2">K. Anderson</span>
           </a><!-- End Profile Iamge Icon -->
 
@@ -272,7 +272,7 @@
   <!-- ======= Sidebar ======= -->
   <aside id="sidebar" class="sidebar">
     <ul class="sidebar-nav" id="sidebar-nav">
-        <img src="../image/logo.png" alt="" style="width: 50%; margin-left:25%; margin-bottom: 10% ">
+        <img src="/../image/logo.png" alt="" style="width: 50%; margin-left:25%; margin-bottom: 10% ">
       <li class="nav-item">
         <a class="nav-link collapsed" href="index.html">
           <i class="bi bi-grid"></i>
@@ -332,16 +332,22 @@
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div class="list-group" style="border-radius: 0;">
+                          <a href="{{ route('ppt') }}">
                             <button type="button" class="list-group-item list-group-item-action">
                                 <i class="bx bxs-file-blank" style="margin-right:1% "></i>
                                 Indonesia Insurance BPJS in Hospital setting
                             </button>
+                          </a>
+                            <a href="{{ route('video') }}">
                             <button type="button" class="list-group-item list-group-item-action">
                                 <i class="bx bxs-videos" style="margin-right:1% "></i>
                                 video introduction BPJS</button>
+                              </a>
+                              <a href="{{ route('quiz') }}">
                             <button type="button" class="list-group-item list-group-item-action">
                                 <i class="bx bx-detail" style="margin-right:1% "></i>
                                 Evaluation 1</button>
+                              </a>
                             <button type="button" class="list-group-item list-group-item-action" disabled>A disabled button item</button>
                           </div><!-- End List group with Links and buttons -->
                     </div>
@@ -351,7 +357,6 @@
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         Module 2
                       </button>
-                      <iframe src="https://www.youtube.com/embed/UPNkOwabRDY" width="560" height="315" title="A YouTube video" frameborder="0" allowfullscreen></iframe>
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                       <div class="accordion-body">
@@ -389,17 +394,17 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="../assetsDashboard/vendor/apexcharts/apexcharts.min.js"></script>
-  <script src="../assetsDashboard/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="../assetsDashboard/vendor/chart.js/chart.umd.js"></script>
-  <script src="../assetsDashboard/vendor/echarts/echarts.min.js"></script>
-  <script src="../assetsDashboard/vendor/quill/quill.min.js"></script>
-  <script src="../assetsDashboard/vendor/simple-datatables/simple-datatables.js"></script>
-  <script src="../assetsDashboard/vendor/tinymce/tinymce.min.js"></script>
-  <script src="../assetsDashboard/vendor/php-email-form/validate.js"></script>
+  <script src="/../assetsDashboard/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="/../assetsDashboard/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/../assetsDashboard/vendor/chart.js/chart.umd.js"></script>
+  <script src="/../assetsDashboard/vendor/echarts/echarts.min.js"></script>
+  <script src="/../assetsDashboard/vendor/quill/quill.min.js"></script>
+  <script src="/../assetsDashboard/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="/../assetsDashboard/vendor/tinymce/tinymce.min.js"></script>
+  <script src="/../assetsDashboard/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="../assetsDashboard/js/main.js"></script>
+  <script src="/../assetsDashboard/js/main.js"></script>
 
 </body>
 

@@ -101,8 +101,8 @@
             <div class="row" style="justify-content: center">
               <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                 <div class="member">
-                  <div class="member-img">
-                    <img src="../image/ketua.jpg" class="img-fluid" alt="">
+                  <div class="member-img" style="max-height: 19em">
+                    <img src="../image/ketua.jpg" alt="Profile" class="img-fluid">
                   </div>
                   <div class="member-info">
                     <h4>Evhy Apryani, B.Pharm., M.Sc., Ph.D</h4>
@@ -119,7 +119,7 @@
           <div class="row" style="justify-content: center" >
             <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
                 <div class="member">
-                  <div class="member-img" >
+                  <div class="member-img"  style="max-height: 19em" >
                     <img src="image/profile.jpg" class="img-fluid" alt="">
                   </div>
                   <div class="member-info">
@@ -130,8 +130,8 @@
         
               <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
                 <div class="member">
-                  <div class="member-img">
-                    <img src="image/profile.jpg" class="img-fluid" alt="" >
+                  <div class="member-img"  style="max-height: 19em">
+                    <img src="image/anggraini.jpg" class="img-fluid" alt="" >
                   </div>
                   <div class="member-info">
                     <h4>Prof. Dr. Anggraini Dwi Sensusiati, dr. Sp. Rad(K)</h4>
@@ -146,7 +146,7 @@
           <div class="row" style="justify-content: center">
             <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
               <div class="member">
-                <div class="member-img">
+                <div class="member-img" style="max-height: 19em" >
                   <img src="image/profile.jpg" class="img-fluid custom-img-size" alt="">
                 </div>
                 <div class="member-info">
@@ -157,10 +157,10 @@
         
             <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
               <div class="member">
-                <div class="member-img">
-                  <img src="image/profile.jpg" class="img-fluid custom-img-size" alt="">
+                <div class="member-img" style="max-height: 19em; margin-top:20%" >
+                  <img src="image/robby.jpeg" class="img-fluid custom-img-size" alt="">
                 </div>
-                <div class="member-info">
+                <div class="member-info" style="margin-top:13%">
                   <h4>Robby Nurhariansyah, dr., Sp.A</h4>
                 </div>
               </div>
@@ -174,8 +174,8 @@
             <div class="row" style="justify-content: center">
               <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
                   <div class="member">
-                    <div class="member-img">
-                      <img src="image/profile.jpg" class="img-fluid" alt="">
+                    <div class="member-img" style="max-height: 19em">
+                      <img src="image/arina.jpeg" class="img-fluid" alt="">
                     </div>
                     <div class="member-info">
                       <h4>Arina Dery Puspita Sari, S, Farm., M.Farm. Klin., Apt</h4>
@@ -186,7 +186,7 @@
           
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
                   <div class="member" >
-                    <div class="member-img">
+                    <div class="member-img" style="max-height: 19em">
                       <img src="image/profile.jpg" class="img-fluid" alt="">
                     </div>
                     <div class="member-info">
@@ -196,6 +196,153 @@
                 </div>
             </div>
           </div>
+
+          <div class="carousel-item text-center">
+            <h2 style="margin-bottom:2% ">Sub Bidang Monitoring Evaluasi</h2>
+            <div class="row" style="justify-content: center">
+              <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+                  <div class="member">
+                    <div class="member-img" style="max-height: 19em">
+                      <img src="image/profile.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="member-info">
+                      <h4>Dr. Muhammad Ilham Aldika Akbar, dr., Sp.OG(K)
+                      </h4>
+        
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+                  <div class="member" >
+                    <div class="member-img" style="max-height: 19em">
+                      <img src="image/dr.Annisa.jpeg" class="img-fluid" alt="">
+                    </div>
+                    <div class="member-info">
+                      <h4>Annisa Zahra Mufida, dr., Sp.PD</h4>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+          <div class="carousel-item text-center">
+            <h2 style="margin-bottom:2% ">Sub Bidang Arbitrase Mediasi</h2>
+            <div class="row" style="justify-content: center">
+              <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+                  <div class="member">
+                    <div class="member-img" style="max-height: 19em">
+                      <img src="image/PakFaisal.jpeg" class="img-fluid" alt="">
+                    </div>
+                    <div class="member-info">
+                      <h4>Dr. Faizal Kurniawan, S.H., M.H., LL.M.
+                      </h4>
+        
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+                  <div class="member" >
+                    <div class="member-img" style="max-height: 19em; margin-top:20%">
+                      <img src="image/dr.Rahmania.jpeg" class="img-fluid" alt="">
+                    </div>
+                    <div class="member-info" style="margin-top:13%">
+                      <h4>Rahmania Kemala Dewi, dr., Sp.F</h4>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+          <div class="carousel-item text-center">
+            <h2 style="margin-bottom:2% ">Sub Bidang Penelitian Sponsor</h2>
+            <div class="row" style="justify-content: center">
+              <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+                  <div class="member">
+                    <div class="member-img" style="max-height: 19em">
+                      <img src="image/dr.Yusuf.jpeg" class="img-fluid" alt="">
+                    </div>
+                    <div class="member-info">
+                      <h4>M. Yusuf, dr., PhD., Sp.J(K)., FIHA., FESC
+                      </h4>
+        
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+                  <div class="member" >
+                    <div class="member-img" style="max-height: 19em">
+                      <img src="image/dr.Prihatma.jpeg" class="img-fluid" alt="">
+                    </div>
+                    <div class="member-info">
+                      <h4>Prihatma Kriswidyatomo, dr., Sp.An
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+          
+          <div class="carousel-item text-center">
+            <h2 style="margin-bottom:2% ">Sub Bidang Riset & Pengembangan</h2>
+            <div class="row" style="justify-content: center">
+              <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+                  <div class="member">
+                    <div class="member-img" style="max-height: 19em">
+                      <img src="image/dr.Anna.jpeg" class="img-fluid" alt="">
+                    </div>
+                    <div class="member-info">
+                      <h4>Anna Surgean Veterini, dr., Sp.An
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+                  <div class="member" >
+                    <div class="member-img" style="max-height: 19em">
+                      <img src="image/dr.Citrawati.jpeg" class="img-fluid" alt="">
+                    </div>
+                    <div class="member-info">
+                      <h4>Citrawati Dyah Kencono Wungu, dr., M.Si
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+          <div class="carousel-item text-center">
+            <h2 style="margin-bottom:2% ">Sekretariat</h2>
+            <div class="row" style="justify-content: center">
+              <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+                  <div class="member">
+                    <div class="member-img" style="max-height: 19em">
+                      <img src="image/profile.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="member-info">
+                      <h4>Prisma Andita Pebriani, S.KM
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+                  <div class="member" >
+                    <div class="member-img" style="max-height: 19em">
+                      <img src="image/profile.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="member-info">
+                      <h4>Fatimatuz Zahro, S.KM
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        
         
       </div>
 

@@ -3,7 +3,7 @@
         <ul>
           <li><a class="" href="{{ route("landing") }}">Home</a></li>
           <li><a class="nav-link" href="{{ route("about") }}">About</a></li>
-          <li><a class="nav-link " href="#services">Services & Resources</a></li>
+          <li><a class="nav-link " href="{{ route("services") }}">Services & Resources</a></li>
           <li><a class="nav-link  " href="#portfolio">Funding</a></li>
           <li><a class="nav-link " href="{{ route("education") }}">Education & Training</a></li>
           <li><a class="nav-link " href="login">Community Engagement</a></li>

@@ -211,7 +211,7 @@
         <li class="nav-item dropdown pe-3">
 
           <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-            <img src="../assetsDashboard/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+            <img src="../image/profil.jpg" alt="Profile" class="rounded-circle">
             <span class="d-none d-md-block dropdown-toggle ps-2">wira kusuma</span>
           </a><!-- End Profile Iamge Icon -->
 
@@ -316,7 +316,7 @@
                 <div class="card">
                     <div class="card-body profile-card pt-4 d-flex flex-column align-items-center">
 
-                    <img src="../assetsDashboard/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+                    <img src="../image/profil.jpg" alt="Profile" class="rounded-circle">
                     <h2>Wira Kusuma</h2>
                     <h3>Web Designer</h3>
                     <div class="social-links mt-2">
@@ -335,14 +335,18 @@
                 <h5 class="card-title">Progress Modul Pembelajaran</h5>
 
                 <!-- Progress Bars with Backgrounds-->
-                <h4>Introduction To BPJS</h4>
-                <div class="progress mb-2" style=" ">
-                    <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                <div>
+                  <p style="margin-bottom: 5px;">Introduction To BPJS</p>
+                  <div class="progress mb-2" style="margin-bottom: 0;">
+                      <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
                 </div>
-                <h4>Good Clinical Practice</h4>
-                <div class="progress mb-2">
+              <div>
+                <p style="margin-bottom: 5px;">Good Clinical Practice</p>
+                <div class="progress mb-2" style="margin-bottom: 0;">
                     <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
+              </div>
                 <h4>-</h4>
                 <div class="progress mb-2">
                     <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
@@ -363,12 +367,12 @@
                         <div class="news">
                             <div class="post-item clearfix" style="margin-bottom:10%">
                                 <div style="display: flex; align-items: center;">
-                                    <img src="../assetsDashboard/img/news-1.jpg" alt="" style="width: 30%; height: 100%; display: block; vertical-align: middle; object-fit: contain; ">
+                                  <img src="../image/profil.jpg" alt="Profile" class="rounded-circle" style="width: 30%; height: 100%; display: block; vertical-align: middle; object-fit: contain; ">
                                     <div style="margin-left: 10px;">
                                         <h4><a href="#">Wira Kusuma</a></h4>
                                         <p>Staff HRD</p>
                                     </div>
-                                </div>
+                                </div>  
                             </div>
                             
 
@@ -417,7 +421,8 @@
                                     <tbody>
                                         <tr>
                                         <th scope="row"><a href="{{ route("user.module") }}">Introduction To BPJS</a></th>
-                                        <td><span class="badge bg-success" style="padding:3% 5%">Finished</span></td>
+                                        <td><span class="badge bg-success" style="padding:3% 5%">Finished</span><span class="badge bg-primary" style="padding:3% 5%; margin-left: 1%"><i class="bx bxs-download" style="margin-right:2% "></i>Download Certificate</span></td>
+                                       
                                         </tr>
                                         <tr>
                                         <tr>
