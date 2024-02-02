@@ -315,7 +315,7 @@
             <div class="card-body d-flex flex-column">
                 <h1 class="card-title" style="font-size: 2rem;">Introduction To BPJS</h1>
                 <div class="embed-responsive embed-responsive-16by9" style="height: 70vh;">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UPNkOwabRDY"  height="105%" width="100%" title="A YouTube video" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/m0-RUNUOcG8"  height="105%" width="100%" title="A YouTube video" allowfullscreen></iframe>
                 </div>
                 <div class="mt-auto text-end">
                     <button type="button" class="btn btn-primary">Next >></button>

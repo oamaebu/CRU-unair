@@ -315,7 +315,7 @@
             <div class="card-body d-flex flex-column">
                 <h1 class="card-title" style="font-size: 2rem;">Indonesia Insurance BPJS in Hospital setting</h1>
                 <div class="embed-responsive embed-responsive-16by9" style="height: 70vh;">
-                  <iframe src="https://onedrive.live.com/embed?resid=59FE5290854DDECA%2152964&amp;authkey=!AF-nWyF4L0fi7_A&amp;em=2&amp;wdAr=1.7777777777777777" width="1115px" height="540px" frameborder="0">Ini adalah presentasi <a target="_blank" href="https://office.com">Microsoft Office</a> yang disematkan, didukung oleh <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+                  <iframe class="embed-responsive-item" src="https://onedrive.live.com/embed?resid=59FE5290854DDECA%2152964&amp;authkey=!AF-nWyF4L0fi7_A&amp;em=2&amp;wdAr=1.7777777777777777" height="85%" width="100%"  frameborder="0">Ini adalah presentasi <a target="_blank" href="https://office.com">Microsoft Office</a> yang disematkan, didukung oleh <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
                 </div>
                 <div class="mt-auto text-end">
                     <button type="button" class="btn btn-primary">Next >></button>
